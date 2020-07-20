@@ -44,6 +44,7 @@ table {
 /* My code starts here */
 * {
 	font-size: 10px;
+	border: 5%;
 }
 
 .flex-container1 {
@@ -61,27 +62,28 @@ button {
 .project1 {
 	display: flex;
 	justify-content: center;
-	padding: 5rem;
+	padding: 2rem;
 }
-.container {
-	position: relative;
-	text-align: center;
-	color: black;
-  }
-  .portfolio {
+.portfolio {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 4rem;
   }
-  .flex-containter2 {
-	  display:flex;
-	  justify-content: space-evenly;
-	  margin-top: 5rem;
-	  padding-1rem;
-  }
-  .flex-containter3 {
-	  display: flex;
-	  justify-content: space-evenly;
-  }
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.project-item {
+	padding: 4rem;
+	border: 1rem;
+}
+h3{
+	font-size: 2rem;
+}
+.project-container {
+	padding: 2rem;
+	background-color: beige;
+}
