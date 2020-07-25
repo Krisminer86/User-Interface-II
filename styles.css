@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* My code starts here */
+* {
+	font-size: 10px;
+	border: 5%;
+}
+
+.flex-container1 {
+    display: flex;
+	justify-content: flex-end;
+	background-color: beige;
+}
+button {
+	color:white;
+	background-color: black;
+	font-size: 1.5rem;
+}
+
+.project1 {
+	display: flex;
+	justify-content: center;
+	background-color: beige;
+	
+	
+}
+.portfolio {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4rem;
+	color: white;
+	
+  }
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.project-item {
+	padding: 6rem;
+	
+	
+	
+}
+p {
+	text-align: center;
+	font-size: 2rem;
+}
+h1 {
+	text-align: center;
+	font-size: 4rem;
+
+}
+h3{
+	font-size: 2rem;
+}
+.project-container {
+	padding: 2rem;
+	background-color: beige;
+	
+}
+footer {
+	background-color: beige;
+	}
+.kris {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+@media (max-width:1064px){
+	.project-item {
+		padding: 2rem;}
+}
+@media (max-width:800px ){
+	.flex-container1{
+		justify-content: center;
+	}
+	.minerpic {
+		height: 360px;
+		width: 480px;
+	}
+	.social-media {
+		display: flex;
+		justify-content: center;
+	}
+	.portfolio {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 2rem;
+		color: white;
+		}
+	.project-image {
+		height: 127px;
+		width: 224px;
+	}
+	.project-title {
+		transform: translate(2rem, 3rem);
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+	
+	
+	
+}
+
+	.project-title {
+		transform: translate(2rem, 3rem);
+}
+@media (max-width:500px){
+	.flex-container1{
+		justify-content: center;
+		flex-direction: column ;
+	}
+	.minerpic {
+		height: 337px;
+		width: 450px;
+	}
+	.social-media {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.portfolio {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+	color: white;
+	}
+}
